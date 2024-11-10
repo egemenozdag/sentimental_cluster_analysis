@@ -8,7 +8,7 @@ from sentiment_cluster_tester import SentimentClusterTester
 
 if __name__ == "__main__":
     # Veri toplama
-    bearer_token = 'AAAAAAAAAAAAAAAAAAAAAMeGwwEAAAAAU%2Blw7qWkEw0vy%2BAS5%2BDwvRITtn0%3DYELXSi9Sd0g98FmUpxguHuv5FeTfkS5jV1mQQBkjmCEgFsOQzt'
+    bearer_token = 'AAAAAAAAAAAAAAAAAAAAAMeGwwEAAAAAU%2Blw5qWkEw0vy%2BAS7%2BDwvRITtn0%3DYELXSi9Sd0g98FmUpxguHuv3FeTfkS1jV1mQQBkjmCEgFsOQzt'
     collector = DataCollector(bearer_token=bearer_token)
     raw_data = collector.fetch_tweets("AI", max_tweets=200)
 
